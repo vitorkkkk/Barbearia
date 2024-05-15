@@ -100,13 +100,14 @@ form{
   margin: 40px 0;
 }
 
-form label{
+form label, form.p{
   display: block;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-form input{
+.imput-padrao{
   display: block;
   margin-bottom: 20px;
 }
+
