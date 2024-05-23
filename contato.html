@@ -3,69 +3,75 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title> Produtos Barbearia</title>
-  <link href="reset.css" rel="stylesheet" />
-  <link href="style-principal.css" rel="stylesheet" />
+  <title>Produtos Barbearia Moreira</title>
+  <link href="style-principal.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <div class="caixa">
-      <h1><img src="logo.png" </h1>
-
-        <nav>
-          <ul>
-            <li><a href="index.html">Home </a></li>
-            <li><a href=" produtos.html">Produtos</a> </li>
-            <li><a href="contato.html">Contatos</a> </li>
-          </ul>
-        </nav>
+    <div class=caixa>
+      <h1><img src="logo.png"></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
     </div>
-
-
-
-
   </header>
 
   <main>
-  <form>
-    <label for="nomeSobrenome">Nome e Sobrenome</label>
-    <input clas="input-padrao" type="text" id="nome e Sobrenome">
-    
-    <label for="email">Email</label>
-    <input clas="input-padrao" type="text" id="email">
-    
-    <label foi="telefone">Telefone</label>
-    <input clas="input-padrao" type="text" id="telefone">
+    <form>
+    <label for="nomeSobrenome">Nome e sobrenome</label>
+      <input class="input-padrao" type="text" id="nomeSobrenome">
 
-    <label form="mensagem">Mensagem</label>
-    <textarea clas="input-padrao" cols="10" rows="10" id="mensagem"></textarea>
-  <div>
-    <p>Como prefere o nosso contato?</p>
 
-    <label for="radio-email">Email</label>
-    <input type="radio" name="contato" value="email" id="radio-email">
+<div>
+  
+  <fieldset>
+<legend>Como prefere o nosso contato?</legend>
+      <label for="email">Email</label>
+      <input class="input-padrao" type="email" id="email" required placeholder="XXXXX@gmail.com">
 
-    <label for="radio-telefone">Telefone</label>
-    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+      <label for="telefone">Telefone</label>
+      <input class="input-padrao" type="text" id="telefone" required placeholder="(99)9999-9999">
 
-    <label for="radio-whatsapp">Whatsapp</label>
-    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
-  </div>
+      <label for="mensagem">Mensagem</label>
+      <textarea class="input-padrao" cols="10" rows="10" id="mensagem" required placeholder="Como podemos lhe ajudar?"></textarea>
+    <legend>Como prefere nosso contato?</legend>
 
-    <label><input type="checkbox" Gostaria de receber nossas ofertas por e-mail?> </label>
-    
-    <input type="submit" value="Enviar Formulario">
-  </form>
+      <label for="radio-email"><input type="text" name="contato" value="email" id="radio-email">Email</label>
+
+
+<label for="radio-telefone"><input type="tel" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+      <label for="radio-whatsapp"><input type="text" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+      
+</div>
+    </fieldset>
+      
+<fieldset>
+      <legend>Em qual horário você prefere ser atendido?</legend>
+<select>
+  <option> Manhã </option>
+  <option> Tarde </option>
+  <option> Noite </option>
+</select>
+    </fielset>
+      
+     <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas ofertas por email?</label>
+      <input class="enviar" type="submit" value="Enviar">
+    </form>
   </main>
 
   <footer>
     <img src="logo-branco.png">
-    <p class="copyright">&copy; Copyright Barbearia Santos - 2023</p>
+    <p class="cop">&#169; Copyrights Barbearia Alura - 2019</p>
   </footer>
-
 </body>
 
 </html>
