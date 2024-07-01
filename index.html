@@ -4,42 +4,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Barbearia Batista</title>
-  <link href="reset.css" rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
+  <title>Barbearia Alura</title>
+  <link href="reset.css" rel="stylesheet">
+  <link href="style-principal.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h1 class="titulo-principal">Barbearia Batista</h1>
+    <div class="caixa">
+      <h1><img src="logo.png"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <img class="banner" src="banner.jpg">
 
+  <main>
 
-  <img id="banner" src="banner.jpg">
-  <div class="principal">
-    <h2>Sobre a Barbearia Costa</h2>
-    <p>Localizada no coração da cidade de <em>Curitiba</em> a <strong> Barbearia Costa </strong> traz para o mercado o
-      que há de melhor para seu cabelo e barba.Fundada em 2023, a Barbearia Batista já é um destaque na cidade e
+    <p>Paragrafo de demonstração!</p>
+
+    <p>Paz aos irmãos</p>
+
+  <section class="principal">
+
+    <h2 class="Titulo-principal">Sobre a Barbearia Alura</h2>
+
+    <img src="utensilios.jpg" class="utensilios" alt="Utensílios utilizados por um barbeiro">
+
+    <p>Localizada no coração da cidade de <em>Porto Velho</em> a <strong>barbearia Alura</strong> traz para o mercado o
+      que há de melhor para o seu cabelo e barba. Fundada em 2023, a barbearia Alura já é um destaque na cidade e
       conquista novos clientes a cada dia.</p>
 
-    <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
-          clientes".</strong></em></p>
-    <p>Oferecemos profissionais experientes e antenados ás mudanças no mundo da moda.O atendimento possui padrão de
-      excelência e agilidade, garantindo a satisfação e a qualidade para nossos clientes.</p>
-  </div>
-  <div class="beneficios">
-    <h3>Benefícios</h3>
+    <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida aos clientes."</strong></em>
+    </p>
 
-    <ul>
-      <li class="item">Atendimento aos Clientes</li>
-      <li class="item">Espaço Diferenciado </li>
-      <li class="item">Boa Localização</li>
+    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possuí padrão de
+      excelência e agilidade, garantindo a satisfação e a qualidade para nossos clientes.</p>
+  </section>
+
+    <section class="mapa">
+      <h3 class="Titulo-principal"> Nosso estabelecimento </h3>
+      <p>Nosso estabelecimento está localizado no coração do bairro Afonso Pena.</p>
+
+      <div class="mapa-conteudo">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.1049115282526!2d-49.17483812364241!3d-25.501547435728128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf0fa63f5dcdf%3A0xabffc9b368410955!2sLindaura%20R%20Lucas%2C%20C%20E%20Prof-Ef%20M!5e0!3m2!1spt-BR!2sbr!4v1718018121380!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    
+  <section class="beneficios">
+    <h3 class="Titulo-principal">Benefícios</h3>
+    
+    <ul class="lista-beneficios">
+      <li class="item">Atendimento aos clientes</li>
+      <li class="item">Espaço Diferenciado</li>
+      <li class="item">Localização</li>
       <li class="item">Profissionais Qualificados</li>
     </ul>
-    <img class="imagem-beneficios" src="COSTA.jpg">
-  </div>
-  <a href="produtos.html">produtos</a>
+
+    <img class="imagem-beneficios" src="beneficios.jpg">
+
+    <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/24T8TpGEKBo?si=a3BoI_tamBgTeC9O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  </main>
+    
+  <footer>
+    <img src="logo-branco.png">
+    <p class="copyright"> &#169; Copyrights Barbearia Alura - 2019</p>
+  </footer>
 </body>
 
 </html>
